@@ -1066,7 +1066,7 @@ class FlutterActorImage extends ActorImage with FlutterActorDrawable {
                 ui.TileMode.clamp, _identityMatrix)
             : null
         ..filterQuality = ui.FilterQuality.low
-        ..isAntiAlias = true;
+        ..isAntiAlias = false;
       onPaintUpdated(_paint);
     }
   }
